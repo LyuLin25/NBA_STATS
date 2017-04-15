@@ -85,5 +85,3 @@ while True:
     if time.strftime('%S',time.localtime(time.time()))=='00' :
 但仍旧存在一些问题，例如终端窗口需要一直保持打开，否则将会停止运行。
 我找到了一个解决办法是利用Screen来保持窗口的后台持续运行，可以不需要一直打开该窗口。
-
-五、实验结果
